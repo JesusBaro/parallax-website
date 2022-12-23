@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+/* font */
+h1 {
+    font-size: 6em;
+    color: white;
+}
+
+h2 {
+    padding-top: 2rem;
+    font-size: 3em;
+    color: white;
+
+}
+
+.ParagraphHeader {
+    padding-bottom: 1rem;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+.ParagraphHeader:hover {
+    font-weight: 500;
+}
+/* parallx pegar todos os backgorund e deixar fixos junots numa mesma tag */
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/linhas-titulo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.TittleHeader {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AudioHeader {
+    margin-top: 5rem;
+}
+
+audio {
+    width: 30vw;
+    height: 4vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+#SecTittle-One{
+    width: 100vw;
+    height: 130vh;
+    background-color: black;
+    background-image: url("assets/foto-terra-titulo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+align-items: center;
+
+}
+.Tittle-One{
+    padding-left: 7rem;
+
+}
+
+.Paragraph{
+
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.Text{
+    font-size: 1.3em;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 60vw;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+}
+
+.SecTittle-Two{
+    width: 100vw;
+    height: 130vh;
+    background-color: black;
+    background-image: url("assets/jameswebb3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+align-items: center;
+}
