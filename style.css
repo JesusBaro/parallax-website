@@ -2,35 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: white; */
 }
 
-/* font */
+/* textos */
 h1 {
     font-size: 6em;
     color: white;
 }
 
-h2 {
-    padding-top: 2rem;
+#headerSubText {    
     font-size: 3em;
+    padding-top: 5rem;
     color: white;
-
 }
 
 .ParagraphHeader {
-    padding-bottom: 1rem;
-    font-size: 1.2em;
+    padding-bottom: 1.4rem;
+    font-size: 1.3em;
     text-align: center;
     color: white;
 }
 
-.ParagraphHeader:hover {
+/* .ParagraphHeader:hover {
     font-weight: 500;
-}
+} */
 /* parallx pegar todos os backgorund e deixar fixos junots numa mesma tag */
 header {
-    width: 100%;
+    border: solid rgb(43, 159, 226);
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -61,57 +60,93 @@ audio {
     height: 4vh;
 }
 
+
 main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.521);
-}
-#SecTittle-One{
     width: 100vw;
-    height: 130vh;
-    background-color: black;
+    background-color: rgba(121, 204, 196, 0.931);
+}
+
+#SecTittle-One {
+    border: solid blueviolet;
+    width: 100vw;
+    height: 180vh;
+    background-color: rgb(0, 0, 0);
     background-image: url("assets/foto-terra-titulo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 
 }
-.Tittle-One{
-    padding-left: 7rem;
+.divTittle-One{
+    display: inline-block;
 
 }
+.Tittle-One {
+    color: white;
+    font-size: 4em;
+    width: 70vw;
+    margin-left: 4rem;
+}
 
-.Paragraph{
-
-    width: 100vw;
-    height: 70vh;
+.Paragraph-One{
+    background-color:transparent;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
-
+    z-index: 1;
 }
-.Text{
-    font-size: 1.3em;
+
+.Text {
+    width: 80vw;
+    font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
-    width: 60vw;
-    text-align: justify;
-    justify-content: center;
+    text-align: center;
     color: white;
+    background-color:transparent;
 }
 
-.SecTittle-Two{
+.SecTittle-Two {
     width: 100vw;
     height: 130vh;
-    background-color: black;
     background-image: url("assets/jameswebb3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-align-items: center;
+    justify-content: flex-end;
+    align-items: center;
 }
+.Tittle-Two {
+    border: solid yellow;
+    width: 40vw;
+    color: white;
+    font-size: 4em;
+    margin-right: 3rem;
+}
+.Text-Two {
+    border: solid green;
+    width: 90vw;
+    height: 50vh;
+    font-size: 1.5em;
+    padding: 8rem 2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.757);
+}
+.Paragraph{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+/* footer {
+    background-color: rgb(214, 73, 73);
+    width: 100vw;
+    height: 100vh;
+} */
