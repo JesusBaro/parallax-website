@@ -10,7 +10,7 @@ h1 {
     color: white;
 }
 
-#headerSubText {    
+#headerSubText {
     font-size: 3em;
     padding-top: 5rem;
     color: white;
@@ -81,72 +81,191 @@ main {
     align-items: center;
 
 }
-.divTittle-One{
-    display: inline-block;
 
-}
 .Tittle-One {
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     width: 70vw;
-    margin-left: 4rem;
+    padding-left: 20rem;
+
 }
 
-.Paragraph-One{
-    background-color:transparent;
-    display: flex;
-    justify-content: center;
+.Paragraph-One {
+    background-color: transparent;
     color: white;
-    z-index: 1;
+    margin-right: 10rem;
 }
 
-.Text {
-    width: 80vw;
+.Text-One {
+    width: 60vw;
     font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
     text-align: center;
     color: white;
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .SecTittle-Two {
     width: 100vw;
-    height: 130vh;
+    height: 420vh;
     background-image: url("assets/jameswebb3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
+
 .Tittle-Two {
-    border: solid yellow;
-    width: 40vw;
+    background-color: rgba(27, 26, 26, 0.396);
+    /* border: solid red; */
+    box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 25vw;
+    height: 40vh;
+    flex-wrap: wrap;
+    font-size: 2.7em;
     color: white;
-    font-size: 4em;
-    margin-right: 3rem;
+    margin-left: 20rem;
+    margin-top: -3rem;
 }
-.Text-Two {
-    border: solid green;
-    width: 90vw;
-    height: 50vh;
+
+.Paragraph-Two {
+    width: 100vw;
+    height: 200vh;
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.Text-TwoA {
+    box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
+    background-color: rgba(27, 26, 26, 0.396);
+    width: 30vw;
+    height: 38vh;
     font-size: 1.5em;
-    padding: 8rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.757);
 }
-.Paragraph{
-    background-color: black;
+
+.Text-TwoB {
+    box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
+    background-color: rgba(27, 26, 26, 0.396);
+    width: 20vw;
+    height: 80vh;
+    font-size: 1.5em;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 60vw;
+}
+
+#SecTittle-Three {
     width: 100vw;
+    height: 200vh;
+    background-image: url("assets/protostar4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     justify-content: center;
-    color: white;
-    
+    align-items: center;
 }
-/* footer {
+
+.Paragraph-Three {
+    border: solid red;
+    width: 80vw;
+}
+
+.Text-Three {
+    font-size: 2em;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+#SecTittle-Four {
+    width: 100vw;
+    height: 90vh;
+    background-image: url("assets/jameswebb5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Paragraph-Four {
+    width: 80vw;
+
+    position: relative;
+    left: -5rem;
+}
+
+.Tittle-Four {
+    font-size: 3em;
+    padding: 2rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.Text-Four {
+    font-size: 2em;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+#SecTittle-Five {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/deep-space-header6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Tittle-Five {
+    border: solid red;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    margin-left: 7rem;
+    width: 15vw;
+}
+.Paragraph-Five {
+    border: solid red;
+    width: 50vw;
+}
+
+footer {
     background-color: rgb(214, 73, 73);
     width: 100vw;
     height: 100vh;
-} */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.Tittle-Footer {
+    border: solid red;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+
+}
