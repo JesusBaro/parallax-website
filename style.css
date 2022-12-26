@@ -1,34 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,500&family=Press+Start+2P&family=Saira:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* textos */
-h1 {
-    font-size: 6em;
-    color: white;
-}
+/* textos 
+titulo sec
+font-family: 'EB Garamond', serif;
 
-#headerSubText {
-    font-size: 3em;
-    padding-top: 5rem;
-    color: white;
-}
-
-.ParagraphHeader {
-    padding-bottom: 1.4rem;
-    font-size: 1.3em;
-    text-align: center;
-    color: white;
-}
+titulo pg
+font-family: 'Press Start 2P', cursive;
+corpo
+font-family: 'Saira', sans-serif;
+*/
 
 /* .ParagraphHeader:hover {
     font-weight: 500;
 } */
 /* parallx pegar todos os backgorund e deixar fixos junots numa mesma tag */
 header {
-    border: solid rgb(43, 159, 226);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -43,7 +35,7 @@ header {
 }
 
 .TittleHeader {
-    width: 70vw;
+    width: 90vw;
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -51,25 +43,47 @@ header {
     align-items: center;
 }
 
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4em;
+    color: white;
+}
+
+#headerSubText {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    padding-top: 3rem;
+    color: white;
+}
+
+.ParagraphHeader {
+    font-family: 'Press Start 2P', cursive;
+    padding-bottom: 2rem;
+    font-size: 0.7em;
+    text-align: center;
+    color: white;
+}
+
 .AudioHeader {
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 audio {
-    width: 30vw;
+    width: 45vw;
     height: 4vh;
 }
 
+.audio {
+    color: solid red;
+}
 
 main {
-    width: 100vw;
     background-color: rgba(121, 204, 196, 0.931);
 }
 
 #SecTittle-One {
-    border: solid blueviolet;
     width: 100vw;
-    height: 180vh;
+    height: 220vh;
     background-color: rgb(0, 0, 0);
     background-image: url("assets/foto-terra-titulo.jpeg");
     background-repeat: no-repeat;
@@ -83,10 +97,12 @@ main {
 }
 
 .Tittle-One {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    text-transform: uppercase;
     color: white;
-    font-size: 3em;
+    font-size: 2.5em;
     width: 70vw;
-    padding-left: 20rem;
 
 }
 
@@ -97,6 +113,8 @@ main {
 }
 
 .Text-One {
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
     width: 60vw;
     font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
@@ -107,7 +125,7 @@ main {
 
 .SecTittle-Two {
     width: 100vw;
-    height: 420vh;
+    height: 520vh;
     background-image: url("assets/jameswebb3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,30 +137,34 @@ main {
 }
 
 .Tittle-Two {
-    background-color: rgba(27, 26, 26, 0.396);
-    /* border: solid red; */
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    color: white;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
     padding: 1rem 1rem 1rem 1rem;
+    display: flex;
     text-align: center;
-    width: 25vw;
-    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 30vh;
     flex-wrap: wrap;
-    font-size: 2.7em;
-    color: white;
-    margin-left: 20rem;
-    margin-top: -3rem;
+
 }
 
 .Paragraph-Two {
     width: 100vw;
     height: 200vh;
-    /* flex-wrap: wrap; */
     display: flex;
     justify-content: space-around;
     color: white;
 }
 
 .Text-TwoA {
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
     background-color: rgba(27, 26, 26, 0.396);
     width: 30vw;
@@ -154,11 +176,13 @@ main {
 }
 
 .Text-TwoB {
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
     background-color: rgba(27, 26, 26, 0.396);
-    width: 20vw;
-    height: 80vh;
-    font-size: 1.5em;
+    width: 30vw;
+    height: 60vh;
+    font-size: 1.7em;
     padding: 2rem 2rem 2rem 2rem;
     text-align: center;
     color: white;
@@ -180,20 +204,25 @@ main {
 }
 
 .Paragraph-Three {
-    border: solid red;
+    display: flex;
+    justify-content: space-around;
     width: 80vw;
 }
 
 .Text-Three {
-    font-size: 2em;
+    width: 30vw;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
+    margin-left: 5.5rem;
     text-align: center;
     color: white;
 }
 
 #SecTittle-Four {
     width: 100vw;
-    height: 90vh;
+    height: 230vh;
     background-image: url("assets/jameswebb5.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,29 +230,34 @@ main {
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.Paragraph-Four {
-    width: 80vw;
-
-    position: relative;
-    left: -5rem;
-}
-
 .Tittle-Four {
-    font-size: 3em;
+    width: 25vw;
+    height: 80vh;
+    position: relative;
+    left: -30vw;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
     padding: 2rem 2rem 2rem 2rem;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
 .Text-Four {
-    font-size: 2em;
+    position: relative;
+    right: -30vw;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 40vw;
     padding: 2rem 2rem 2rem 2rem;
-    text-align: center;
+    text-align: right;
     color: white;
 }
 
@@ -241,31 +275,69 @@ main {
 }
 
 .Tittle-Five {
-    border: solid red;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
     font-size: 5em;
     text-align: center;
     color: white;
-    margin-left: 7rem;
-    width: 15vw;
+    margin-left: 1rem;
+    width: 25vw;
 }
+
 .Paragraph-Five {
-    border: solid red;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
     width: 50vw;
 }
 
 footer {
-    background-color: rgb(214, 73, 73);
+    background-image: url("assets/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:left;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
+
 .Tittle-Footer {
-    border: solid red;
-    font-size: 5em;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 3em;
     text-align: center;
     color: white;
 
 }
+.ContainerSlide{
+    border: solid white;
+    width: 100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+}
+.slide-gallery{
+    border: solid red;
+    width: 80vw;
+    height: 80vh;
+   display: flex;
+    overflow:hidden;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s; /*internet explore*/
+    -moz-transition:left 2s;/*firefox explore*/
+    -o-transition: left 2s;/*opera explore*/
+   
+     margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+    .ImageSlide{
+    float:left;
+   
+    }
