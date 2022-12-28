@@ -298,7 +298,7 @@ footer {
     background-attachment: fixed;
     background-position: left;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content:flex-end;
     align-items: flex-end;
@@ -324,7 +324,7 @@ padding: 0 1rem 2rem 0 ;
 }
 
 .slide-gallery {
-    border: solid red;
+    border: transparent;
     width: 80vw;
     height: 70vh;
     display: flex;
@@ -340,7 +340,7 @@ padding: 0 1rem 2rem 0 ;
     /*firefox explore*/
     -o-transition: left 2s;
     /*opera explore*/
-
+    margin-bottom: 2rem;
 }
 
 .ImageSlide {
