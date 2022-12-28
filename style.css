@@ -60,8 +60,8 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     padding-bottom: 2rem;
     font-size: 0.7em;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 .AudioHeader {
@@ -118,7 +118,7 @@ main {
     width: 60vw;
     font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
-    text-align: center;
+    text-align: justify;
     color: white;
     background-color: transparent;
 }
@@ -171,7 +171,7 @@ main {
     height: 38vh;
     font-size: 1.5em;
     padding: 2rem 2rem 2rem 2rem;
-    text-align: center;
+    text-align: justify;
     color: white;
 }
 
@@ -184,7 +184,7 @@ main {
     height: 60vh;
     font-size: 1.7em;
     padding: 2rem 2rem 2rem 2rem;
-    text-align: center;
+    text-align: justify;
     color: white;
     position: relative;
     top: 60vw;
@@ -214,9 +214,8 @@ main {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 1.5em;
-    padding: 2rem 2rem 2rem 2rem;
     margin-left: 5.5rem;
-    text-align: center;
+    text-align: justify;
     color: white;
 }
 
@@ -280,7 +279,7 @@ main {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 5em;
-    text-align: center;
+    text-align: justify;
     color: white;
     margin-left: 1rem;
     width: 25vw;
@@ -297,47 +296,61 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position:left;
+    background-position: left;
     width: 100vw;
-    height: 130vh;
+    height: 100vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:flex-end;
+    align-items: flex-end;
     flex-direction: column;
 }
 
 .Tittle-Footer {
     font-family: 'EB Garamond', serif;
     font-weight: 500;
-    font-size: 3em;
-    text-align: center;
+    font-size: 2em;
+    text-align: justify;
     color: white;
+padding: 0 1rem 2rem 0 ;
+}
+
+.ContainerSlide {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 
 }
-.ContainerSlide{
-    border: solid white;
-    width: 100vw;
-    height: 100vh;
-display: flex;
-justify-content: center;
-}
-.slide-gallery{
+
+.slide-gallery {
     border: solid red;
     width: 80vw;
-    height: 80vh;
-   display: flex;
-    overflow:hidden;
+    height: 70vh;
+    display: flex;
+    overflow: scroll;
+    /*    overflow: hidden;  seria para ver uma por vez mas nao funciona
+  */
     position: relative;
+    left: 0%;
     transition: left 2s;
-    -webkit-transition: left 2s; /*internet explore*/
-    -moz-transition:left 2s;/*firefox explore*/
-    -o-transition: left 2s;/*opera explore*/
-   
-     margin-left: auto;
-margin-right: auto;
-text-align: center;
+    -webkit-transition: left 2s;
+    /*internet explore*/
+    -moz-transition: left 2s;
+    /*firefox explore*/
+    -o-transition: left 2s;
+    /*opera explore*/
+
 }
-    .ImageSlide{
-    float:left;
-   
-    }
+
+.ImageSlide {
+    width: 80vw;
+    height: 70vh;
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
