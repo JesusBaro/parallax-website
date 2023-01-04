@@ -116,7 +116,7 @@ main {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     width: 60vw;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding: 2rem 2rem 2rem 2rem;
     text-align: justify;
     color: white;
@@ -131,7 +131,7 @@ main {
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
@@ -144,12 +144,8 @@ main {
     color: white;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
     padding: 1rem 1rem 1rem 1rem;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     width: 80vw;
-    height: 30vh;
     flex-wrap: wrap;
 
 }
@@ -159,23 +155,22 @@ main {
     height: 200vh;
     display: flex;
     justify-content: space-around;
-    color: white;
 }
 
-.Text-TwoA {
+.Text-Two-Left {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
     background-color: rgba(27, 26, 26, 0.396);
     width: 30vw;
-    height: 38vh;
-    font-size: 1.5em;
+    height: 45vh;
+    font-size: 1.7em;
     padding: 2rem 2rem 2rem 2rem;
     text-align: justify;
     color: white;
 }
 
-.Text-TwoB {
+.Text-Two-Right {
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
@@ -199,22 +194,15 @@ main {
     background-attachment: fixed;
     background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Paragraph-Three {
-    display: flex;
     justify-content: space-around;
-    width: 80vw;
+    align-items: center;
 }
 
 .Text-Three {
     width: 30vw;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
-    font-size: 1.5em;
-    margin-left: 5.5rem;
+    font-size: 1.7em;
     text-align: justify;
     color: white;
 }
@@ -229,34 +217,47 @@ main {
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+
 }
 
 .Tittle-Four {
-    width: 25vw;
-    height: 80vh;
-    position: relative;
-    left: -30vw;
+    width: 50vw;
+    height: 40vh;
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
     padding: 2rem 2rem 2rem 2rem;
+    margin-left: 3rem;
     flex-wrap: wrap;
     text-align: left;
     color: white;
+    position: relative;
+    left: -20vw;
 }
 
-.Text-Four {
-    position: relative;
-    right: -30vw;
+.Text-Four-Right {
+    /* border: solid red; */
     font-family: 'EB Garamond', serif;
     font-weight: 300;
-    font-size: 1.5em;
-    width: 40vw;
-    padding: 2rem 2rem 2rem 2rem;
-    text-align: right;
+    font-size: 1.7em;
+    width: 30vw;
+    padding: 2rem 2rem 2rem 1rem;
+    text-align: justify;
+    color: white;
+}
+
+.Text-Four-Left {
+    /* border: solid red; */
+    margin-top: 3rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    width: 30vw;
+    text-align: justify;
+    padding: 2rem 2rem 2rem 1rem;
     color: white;
 }
 
@@ -269,28 +270,30 @@ main {
     background-attachment: fixed;
     background-position: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .Tittle-Five {
     font-family: 'EB Garamond', serif;
-    font-weight: 500;
-    font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 5em;
-    text-align: justify;
     color: white;
-    margin-left: 1rem;
-    width: 25vw;
+    writing-mode: vertical-lr;
+    margin-left: 3rem;
 }
 
-.Paragraph-Five {
+.Text-Five{
+    padding: 1rem  1rem 1rem 1rem ;
+    width: 40vw;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
-    width: 50vw;
-}
+    font-size: 1.8em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: justify;
 
+}
 footer {
     background-image: url("assets/footer.jpg");
     background-repeat: no-repeat;
@@ -299,8 +302,8 @@ footer {
     background-position: left;
     width: 100vw;
     height: 120vh;
-    display: flex;
-    justify-content:flex-end;
+    display: none;
+    justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
 }
@@ -311,7 +314,7 @@ footer {
     font-size: 2em;
     text-align: justify;
     color: white;
-padding: 0 1rem 2rem 0 ;
+    padding: 0 1rem 2rem 0;
 }
 
 .ContainerSlide {
