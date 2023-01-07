@@ -180,19 +180,35 @@ body {
     background-attachment: fixed;
     background-position: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.Text-Three {
-    border: solid plum;
+.Text-Three-Left {
+    /* border: solid red; */
 
-    width: 30vw;
+    width: 15vw;
+    height: 85vh;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
-    font-size: 1.7em;
-    text-align: justify;
+    font-size: 1.8em;
+    text-align: right;
     color: white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    transform: rotate(-6deg)
+}   
+ .Text-Three-Right {
+    /* border: solid red; */
+    width: 15vw;
+    height: 85vh;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    text-align: left;
+    color: white;
+    margin-left: 0.5rem;
+    transform: rotate(-6deg)
 }
 
 #SecTittle-Four {
@@ -222,12 +238,10 @@ body {
     font-weight: 500;
     font-size: 2.5em;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 3rem;
     flex-wrap: wrap;
     text-align: left;
     color: white;
-    position: relative;
-    left: -20vw;
+   
 }
 
 .Text-Four-Right {
@@ -381,7 +395,7 @@ footer {
     h1 {
         border: solid plum;
         font-family: 'Press Start 2P', cursive;
-        font-size: 2.9em;
+        font-size: 2.7em;
         color: white;
         text-align: center;
         padding: 1rem 1rem 1rem 1rem;
@@ -419,7 +433,6 @@ footer {
         height: 10vh;
     }
 
-
     main,
     body {
 
@@ -430,13 +443,14 @@ footer {
         border: solid greenyellow;
 
         width: 100vw;
-        height: 220vh;
+        height: 350vh;
         background-color: rgb(0, 0, 0);
         background-image: url("assets/foto-terra-titulo.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        display: none;
+        background-position: right;
+        display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
@@ -445,40 +459,42 @@ footer {
 
     .Tittle-One {
         border: solid plum;
-
+        width: 50vw;
+        height: 40vh;
         font-family: 'EB Garamond', serif;
         font-weight: 500;
         text-transform: uppercase;
+        text-align: right;
         color: white;
         font-size: 2.5em;
-        width: 70vw;
+        margin-left: 6rem;
 
     }
 
     .Text-One {
         border: solid plum;
-
+        width: 95vw;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
-        width: 60vw;
-        font-size: 1.7em;
-        padding: 2rem 2rem 2rem 2rem;
-        text-align: justify;
+        font-size: 1.5em;
+        padding: 2rem 0.5rem 2rem 3rem;
+        text-align: right;
         color: white;
         background-color: transparent;
+        flex-wrap: nowrap;
     }
 
     .SecTittle-Two {
         border: solid greenyellow;
 
         width: 100vw;
-        height: 520vh;
+        height: 400vh;
         background-image: url("assets/jameswebb3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        display: none;
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
@@ -502,74 +518,87 @@ footer {
     .Text-Two-Left {
         border: solid plum;
 
+        width: 65vw;
+        height: auto;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
         box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
         background-color: rgba(27, 26, 26, 0.396);
-        width: 30vw;
-        height: 45vh;
-        font-size: 1.7em;
-        padding: 2rem 2rem 2rem 2rem;
-        text-align: justify;
+        font-size: 1.5em;
+        text-align: center;
         color: white;
         position: relative;
-        left: -25vw;
+        left:10vw;
     }
 
     .Text-Two-Right {
         border: solid plum;
-
+        
+        width: 65vw;
+        height:auto;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
         box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
         background-color: rgba(27, 26, 26, 0.396);
-        width: 30vw;
-        height: 60vh;
-        font-size: 1.7em;
-        padding: 2rem 2rem 2rem 2rem;
-        text-align: justify;
+        font-size: 1.5em;
+        text-align: center;
         color: white;
         position: relative;
-        right: -25vw;
+        right: 13vw;
     }
 
     #SecTittle-Three {
         border: solid greenyellow;
 
         width: 100vw;
-        height: 200vh;
+        height: 150vh;
         background-image: url("assets/protostar4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position: center;
-        display: none;
-        justify-content: space-around;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
-    .Text-Three {
-        border: solid plum;
-
-        width: 30vw;
+    .Text-Three-Left {
+        border: solid red;
+        width: 38vw;
+        height: auto;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
-        font-size: 1.7em;
-        text-align: justify;
+        font-size: 1.4em;
+        text-align: right;
         color: white;
+        margin-left: 1rem;
+        transform: rotate(-3deg);
+
+    }   
+     .Text-Three-Right {
+        border: solid red;
+        width: 38vw;
+        height: auto;
+        font-family: 'EB Garamond', serif;
+        font-weight: 300;
+        font-size: 1.4em;
+        text-align: left;
+        color: white;
+        margin-left: 0.3rem;
+        transform: rotate(-3deg);
+
     }
 
     #SecTittle-Four {
         border: solid greenyellow;
 
         width: 100vw;
-        height: 330vh;
+        height: 530vh;
         background-image: url("assets/jameswebb5.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -579,19 +608,16 @@ footer {
     .Tittle-Four {
         border: solid plum;
 
-        width: 50vw;
-        height: 40vh;
+        width: 80vw;
+        height: auto;
         font-family: 'EB Garamond', serif;
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 2.5em;
-        padding: 2rem 2rem 2rem 2rem;
-        margin-left: 3rem;
+        font-size: 1.8em;
         flex-wrap: wrap;
         text-align: left;
         color: white;
-        position: relative;
-        left: -20vw;
+       
     }
 
     .Text-Four-Right {
@@ -599,23 +625,20 @@ footer {
 
         font-family: 'EB Garamond', serif;
         font-weight: 300;
-        font-size: 1.7em;
-        width: 30vw;
-        padding: 2rem 2rem 2rem 1rem;
+        font-size: 1.4em;
+        width: 80vw;
         text-align: justify;
         color: white;
     }
 
     .Text-Four-Left {
         border: solid plum;
-
         margin-top: 3rem;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
-        font-size: 1.7em;
-        width: 30vw;
+        font-size: 1.4em;
+        width: 80vw;
         text-align: justify;
-        padding: 2rem 2rem 2rem 1rem;
         color: white;
     }
 
