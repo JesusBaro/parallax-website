@@ -55,7 +55,6 @@ audio {
     height: 4vh;
 }
 
-
 main,
 body {
 
@@ -66,7 +65,7 @@ body {
     border: solid greenyellow;
 
     width: 100vw;
-    height: 220vh;
+    height: 360vh;
     background-color: rgb(0, 0, 0);
     background-image: url("assets/foto-terra-titulo.jpeg");
     background-repeat: no-repeat;
@@ -81,28 +80,63 @@ body {
 
 .Tittle-One {
     border: solid plum;
-
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     text-transform: uppercase;
     color: white;
     font-size: 2.5em;
-    width: 70vw;
 
+
+   
+}
+.TransacaoTittle-One{
+    border: solid red;
+    display: flex;
+   align-items: center;
+    width: 100vw;
+    height: 100vh;
+    transition: 4s;
+    opacity: 0;
+}
+.TransacaoTittle-One:hover{
+    border: solid blue;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 22rem;
+    opacity: 1;
 }
 
 .Text-One {
     border: solid plum;
-
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     width: 60vw;
+    height: auto;
     font-size: 1.7em;
     padding: 2rem 2rem 2rem 2rem;
     text-align: justify;
     color: white;
-    background-color: transparent;
+
 }
+
+.TransacaoText-One{
+
+    border: solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    transition:1s;
+    opacity: 0;
+}
+.TransacaoText-One:hover {
+    opacity: 1;
+    width: 100vw;
+    height: 60vh;
+
+}
+
 
 .SecTittle-Two {
     border: solid greenyellow;
@@ -194,21 +228,20 @@ body {
     font-size: 1.8em;
     text-align: right;
     color: white;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    transform: rotate(-6deg)
+    margin-left: 6rem;
+    /* transform: rotate(-6deg) */
 }   
  .Text-Three-Right {
     /* border: solid red; */
-    width: 15vw;
+    width: 19vw;
     height: 85vh;
     font-family: 'EB Garamond', serif;
     font-weight: 300;
     font-size: 1.8em;
     text-align: left;
     color: white;
-    margin-left: 0.5rem;
-    transform: rotate(-6deg)
+    margin-left: 1.5rem;
+    /* transform: rotate(-6deg) */
 }
 
 #SecTittle-Four {
@@ -435,7 +468,6 @@ footer {
 
     main,
     body {
-
         background-color: black;
     }
 
@@ -443,7 +475,7 @@ footer {
         border: solid greenyellow;
 
         width: 100vw;
-        height: 350vh;
+        height: 400vh;
         background-color: rgb(0, 0, 0);
         background-image: url("assets/foto-terra-titulo.jpeg");
         background-repeat: no-repeat;
@@ -459,18 +491,23 @@ footer {
 
     .Tittle-One {
         border: solid plum;
-        width: 50vw;
-        height: 40vh;
+        width: 70vw;
+        height: auto;
         font-family: 'EB Garamond', serif;
         font-weight: 500;
         text-transform: uppercase;
         text-align: right;
         color: white;
-        font-size: 2.5em;
-        margin-left: 6rem;
+        font-size: 1.8em;
 
     }
-
+    .TransacaoTittle-One:hover{
+        border: solid blue;
+        width: 100vw;
+        height: 100vh;
+        padding-left:5rem;
+        opacity: 1;
+    }
     .Text-One {
         border: solid plum;
         width: 95vw;
@@ -480,8 +517,14 @@ footer {
         padding: 2rem 0.5rem 2rem 3rem;
         text-align: right;
         color: white;
-        background-color: transparent;
         flex-wrap: nowrap;
+    }
+
+    .TransacaoText-One:hover {
+        opacity: 1;
+        width: 100vw;
+        height: 90vh;
+    
     }
 
     .SecTittle-Two {
@@ -505,7 +548,7 @@ footer {
         font-family: 'EB Garamond', serif;
         font-weight: 500;
         text-transform: uppercase;
-        font-size: 2.4em;
+        font-size: 1.8em;
         color: white;
         box-shadow: 1rem 0rem 3rem 0.1rem rgb(18, 18, 18);
         padding: 1rem 1rem 1rem 1rem;
@@ -549,12 +592,12 @@ footer {
 
     #SecTittle-Three {
         border: solid greenyellow;
-
         width: 100vw;
         height: 150vh;
         background-image: url("assets/protostar4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: right;
         background-attachment: fixed;
         display: flex;
         justify-content: center;
@@ -562,37 +605,34 @@ footer {
     }
 
     .Text-Three-Left {
-        border: solid red;
+border: solid red;
         width: 38vw;
-        height: auto;
+        height: 65vh;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
         font-size: 1.4em;
         text-align: right;
         color: white;
-        margin-left: 1rem;
-        transform: rotate(-3deg);
-
+        margin-left: 0rem;
     }   
      .Text-Three-Right {
         border: solid red;
-        width: 38vw;
-        height: auto;
+
+        width: 45vw;
+        height: 65vh;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
         font-size: 1.4em;
         text-align: left;
         color: white;
-        margin-left: 0.3rem;
-        transform: rotate(-3deg);
+        /* transform: rotate(-3deg); */
 
     }
 
     #SecTittle-Four {
         border: solid greenyellow;
-
         width: 100vw;
-        height: 530vh;
+        height: 330vh;
         background-image: url("assets/jameswebb5.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -602,7 +642,6 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-
     }
 
     .Tittle-Four {
@@ -653,7 +692,7 @@ footer {
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
-        display: none;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -666,20 +705,34 @@ footer {
         font-size: 5em;
         color: white;
         writing-mode: vertical-lr;
-        margin-left: 3rem;
+        margin:0 0.5rem 0 0.5rem;
     }
 
     .Text-Five {
         border: solid plum;
 
         padding: 1rem 1rem 1rem 1rem;
-        width: 40vw;
+        width: 60vw;
         font-family: 'EB Garamond', serif;
         font-weight: 300;
-        font-size: 1.8em;
+        font-size: 1em;
         color: white;
         background-color: rgba(0, 0, 0, 0.2);
         text-align: justify;
-
+        margin-left: 1.4rem;
+    }
+/* INCOMPLETO */
+    footer {
+        background-image: url("assets/footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+        width: 100vw;
+        height: 120vh;
+        display: none;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
     }
 }
