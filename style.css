@@ -55,9 +55,11 @@ audio {
     height: 4vh;
 }
 
-main,
-body {
 
+body {
+    border: solid palevioletred;
+/* width: 120vw;
+margin-left: 5rem; */
     background-color: black;
 }
 
@@ -92,7 +94,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    transition: 2.5s;
+    transition: 1.8s;
     opacity: 0;
 }
 
@@ -129,7 +131,7 @@ body {
     height: 100vh;
     transition: 1s;
     transition-delay: 0.3s;
-    opacity: 0;
+    opacity: 0.1;
 }
 
 .TransacaoText-One:hover {
@@ -173,15 +175,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 1.5s;
-    transition-delay: 0.5s;
-    transition-timing-function: ease-out;
+    transition: all 1s;
     color: transparent;
 }
 
 .TransacaoTittle-Two:hover {
     border: solid blue;
-    font-size: 7em;
+    font-size: 6em;
     color: white;
 }
 
@@ -206,8 +206,8 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    transition: 2.5s ease-out;
-    opacity: 0;
+    transition:all 1.5s ;
+    opacity: 0.1;
 }
 
 .TransacaoText-Two-Left:hover {
@@ -240,8 +240,8 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    transition: 2.5s ease-out;
-    opacity: 0;
+    transition: all 1.5s;
+    opacity: 0.1;
 }
 
 .TransacaoText-Two-Right:hover {
@@ -303,7 +303,7 @@ body {
 #SecTittle-Four {
     border: solid greenyellow;
     width: 100vw;
-    height: 150vh;
+    height: 350vh;
     background-image: url("assets/jameswebb5.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,50 +315,38 @@ body {
     flex-direction: column;
 
 }
-
+.Container-Tittle-Four{
+    border: solid red;
+    width: 100vw;
+    height: 100vh;
+    /* transition: all 1.5s;
+    opacity: 0; */
+}
+.Container-Tittle-Four:hover{
+   
+    /* opacity: 1; */
+}
 .Tittle-Four {
     border: solid plum;
 
-    width: 50vw;
-    height: 40vh;
     font-family: 'EB Garamond', serif;
     text-transform: uppercase;
+    width: 60vw;
+    height: fit-content;
     font-weight: 500;
     font-size: 2.5em;
     padding: 2rem 2rem 2rem 2rem;
     flex-wrap: wrap;
-    text-align: left;
-    color: white;
-
-}
-
-.Text-Four-Top {
-    /* border: solid plum; */
-
-    font-family: 'EB Garamond', serif;
-    font-weight: 300;
-    font-size: 1.7em;
-    width: 30vw;
-    padding: 2rem 2rem 2rem 1rem;
-    text-align: justify;
+    text-align: center;
     color: white;
 }
 
-.Text-Four-Bottom {
-    /* border: solid plum; */
-    font-family: 'EB Garamond', serif;
-    font-weight: 300;
-    font-size: 1.7em;
-    width: 30vw;
-    text-align: justify;
-    padding: 2rem 2rem 2rem 1rem;
-    color: white;
-}
+
 
 .container-sobreposicao {
     border: solid rgb(220, 29, 213);
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,14 +354,27 @@ body {
 
 }
 
+.Text-Four-Top {
+    border: solid plum;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    width: 30vw;
+    height: fit-content;
+    text-align: justify;
+    padding: 2rem 2rem 2rem 1rem;
+    color: white;
+}
+
 .TransacaoText-Four-Top {
     border: solid yellow;
+    background-color: rgba(244, 232, 97, 0.525);
     width: 100vw;
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    z-index: 2;
+    z-index: 1;
     transition: ease-in 2s;
     transition-delay: 0.3S;
     opacity: 0.5;
@@ -381,25 +382,34 @@ body {
 
 .TransacaoText-Four-Top:hover {
     padding-bottom: 8rem;
-    height: 100vh;
     opacity: 1;
+}
+
+.Text-Four-Bottom {
+    border: solid plum;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    width: 30vw;
+    height: fit-content;
+    text-align: justify;
+    padding: 2rem 2rem 2rem 1rem;
+    color: white;
 }
 
 .TransacaoText-Four-Bottom {
     border: solid blue;
+    background-color: rgba(51, 36, 215, 0.525);
     width: 100vw;
-    height: 80;
+    height: 50vh;
     display: flex;
     justify-content: center;
-    z-index: 1;
-    position: relative;
-    bottom: 10rem;
+    z-index: auto;
+    /* position: relative;
+    bottom: 10rem; */
     opacity: 1;
-    transition: all 2s;
 }
-.TransacaoText-Four-Bottom :hover{
-    padding-top: 8rem;
-}
+
 
 #SecTittle-Five {
 
